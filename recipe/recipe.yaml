@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.4.0
+  version: 0.5.0
 
 package:
   name: xpustat
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/x/xpustat/xpustat-${{ version }}.tar.gz
-  sha256: 1b94ea0561e3c187730615f1d511f408c3f6261d99088ac729557c890bb69f64
+  sha256: f72f68b9c54077a29937a701f89d3affaa388a822c911ff6bee0facebf3a835a
 
 build:
   noarch: python
@@ -46,7 +46,7 @@ about:
   homepage: https://github.com/Bekhouche/xpustat
   license: MIT
   license_file: LICENSE
-  summary: A unified stat tool for NVIDIA, AMD, Intel, Huawei, Hygon, Cambricon, Moore Threads, Apple Silicon, AWS Neuron, Google TPU and Tenstorrent accelerators
+  summary: A unified stat tool for NVIDIA, AMD, Intel, Huawei, Hygon, Cambricon, Moore Threads, Apple Silicon, AWS Neuron, Google TPU, Tenstorrent, Rebellions and FuriosaAI accelerators, with the host CPU
   repository: https://github.com/Bekhouche/xpustat
   documentation: https://github.com/Bekhouche/xpustat/tree/main/docs
 
